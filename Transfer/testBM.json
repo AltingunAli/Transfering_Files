@@ -1,0 +1,26 @@
+{
+    "DetectorName": "testBM",
+    "DetectorType": "FissionChamber",
+    "operationMode": "normal",
+    "cassettes": 3,
+    "orientation": "vertical",
+    "Cassette2ElectronicsConfig": [
+        {
+            "ID": 0,
+            "Ring": 0,
+            "Fen": 0,
+            "Tube": 0
+        }
+    ],
+    "positionBins": 256,
+    "tubesPerRow": 8,
+    "tubeLength": 150,
+    "Monitor": [
+        {
+            "ID": 99,
+            "type": "RING",
+            "Ring": 11,
+            "Channel": 0
+        }
+    ]
+}
